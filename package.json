@@ -1,0 +1,20 @@
+{
+  "name": "calculator-in-vue",
+  "version": "1.0.0",
+  "description": "simple calculator in vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroMontolive/calculator-in-vue.git"
+  },
+  "author": "Pedro Montolive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PedroMontolive/calculator-in-vue/issues"
+  },
+  "homepage": "https://github.com/PedroMontolive/calculator-in-vue#readme"
+}
