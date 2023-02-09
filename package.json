@@ -4,8 +4,9 @@
   "description": "simple calculator in vue.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/PedroMontolive/calculator-in-vue/issues"
   },
-  "homepage": "https://github.com/PedroMontolive/calculator-in-vue#readme"
+  "homepage": "https://github.com/PedroMontolive/calculator-in-vue#readme",
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
 }
