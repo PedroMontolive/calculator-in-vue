@@ -1,6 +1,4 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import Calculator from './Pages/Calculator.vue';
 
-
-
-createApp(App).mount('#app')
+createApp(Calculator).mount('#app');
